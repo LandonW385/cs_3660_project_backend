@@ -1,0 +1,9 @@
+{
+    "stores": [
+      { "id": 1, "name": "TuneGether - New York", "address": "123 Broadway, New York, NY", "lat": 40.7128, "lng": -74.0060 },
+      { "id": 2, "name": "TuneGether - Los Angeles", "address": "456 Sunset Blvd, Los Angeles, CA", "lat": 34.0522, "lng": -118.2437 },
+      { "id": 3, "name": "TuneGether - Chicago", "address": "789 Michigan Ave, Chicago, IL", "lat": 41.8781, "lng": -87.6298 },
+      { "id": 4, "name": "TuneGether - Houston", "address": "101 Main St, Houston, TX", "lat": 29.7604, "lng": -95.3698 },
+      { "id": 5, "name": "TuneGether - San Francisco", "address": "234 Market St, San Francisco, CA", "lat": 37.7749, "lng": -122.4194 }
+    ]
+  }

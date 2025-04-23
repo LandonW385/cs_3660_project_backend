@@ -1,0 +1,22 @@
+{
+    "users": [
+        {
+            "username": "jd@gmail.com",
+            "name": "John Doe",
+            "password_hash": "fcf730b6d95236ecd3c9fc2d92d7b6b2bb061514961aec041d6c7a7192f592e4",
+            "coins": 460
+        },
+        {
+            "username": "jane.doe@example.com",
+            "name": "Jane Doe",
+            "password_hash": "dda69783f28fdf6f1c5a83e8400f2472e9300887d1dffffe12a07b92a3d0aa25",
+            "coins": 100
+        },
+        {
+            "username": "jablinknsy@hotmail.com",
+            "name": "Jack Black",
+            "password_hash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+            "coins": 100
+        }
+    ]
+}

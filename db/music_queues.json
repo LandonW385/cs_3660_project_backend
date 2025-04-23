@@ -1,0 +1,26 @@
+{
+    "stores": {
+        "1": {
+            "now_playing": null,
+            "queue": [],
+            "listeners": 0
+        },
+        "2": {
+            "now_playing": null,
+            "queue": [],
+            "listeners": 0
+        },
+        "3": {
+            "now_playing": null,
+            "queue": []
+        },
+        "5": {
+            "now_playing": null,
+            "queue": []
+        },
+        "4": {
+            "now_playing": null,
+            "queue": []
+        }
+    }
+}
