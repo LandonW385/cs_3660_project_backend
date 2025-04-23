@@ -1,0 +1,7 @@
+clone the repository
+
+optionally set up a virtual env
+
+install the required dependencies using 'pip':
+
+start backend with python -m uvicorn main:app --reload
