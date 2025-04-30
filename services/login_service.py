@@ -5,8 +5,7 @@ import hashlib
 
 from repositories.user_repository import UserRepository
 
-SECRET_KEY = "your_secret_key_your_secret_key_your_secret_key_your_secret_key"
-ALGORITHM = "HS256"
+from config import settings
 
 class LoginService:
     @staticmethod
@@ -34,7 +33,7 @@ class LoginService:
             "exp": expiration_time,
             "user": user_payload
         }
-        token = jwt.encode(token_payload, SECRET_KEY, algorithm=ALGORITHM)
+        token = jwt.encode(token_payload, settings.secret_key, settings.algorithm)
 
         return token
 
@@ -42,7 +41,7 @@ class LoginService:
     def verify_token(token: str) -> dict:
         try:
             # Decode the token using the secret key and algorithm
-            payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+            payload = jwt.decode(token, settings.secret_key, algorithms=[settings.algorithm])
             return payload
         except jwt.ExpiredSignatureError:
             raise HTTPException(status_code=401, detail="Token has expired. Please log in again.")
